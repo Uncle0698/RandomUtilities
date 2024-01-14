@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "unclerandomutilities",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Uncle's Random Utilities",
+  "description": "Random useful stuff.",
   "authors": [
-    "Turnip Labs"
+    "Lunatic Uncle"
   ],
   "contact": {
     "homepage": "",
@@ -18,20 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
-    ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
-		]
+			"lunaticuncle.randomutil.RandomUtilities"
+    ]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "randomutilities.mixins.json"
   ],
 
   "depends": {
