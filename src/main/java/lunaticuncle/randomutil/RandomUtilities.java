@@ -11,7 +11,7 @@ public class RandomUtilities implements ModInitializer {
     public static final String MOD_ID = "unclerandomutilities";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static GameRuleBoolean FIRE_TICKS = (GameRuleBoolean) GameRules.register(new GameRuleBoolean("doFireTick", true));
-
+	public static GameRuleBoolean DAYLIGHT_CYCLE = (GameRuleBoolean) GameRules.register(new GameRuleBoolean("doDaylightCycle", true));
 
     @Override
     public void onInitialize() {

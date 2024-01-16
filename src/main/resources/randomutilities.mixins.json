@@ -4,8 +4,9 @@
     "package": "lunaticuncle.randomutil.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
-      "CommandsMixin",
-      "FireTickMixin"
+      "commands.CommandsMixin",
+      "gamerules.FireTickMixin",
+      "gamerules.DaylightCycleMixin"
     ],
     "client": [
     ],

@@ -1,4 +1,4 @@
-package lunaticuncle.randomutil.mixin;
+package lunaticuncle.randomutil.mixin.commands;
 
 import lunaticuncle.randomutil.commands.SmiteCommand;
 import net.minecraft.core.net.command.Commands;

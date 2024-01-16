@@ -1,4 +1,4 @@
-package lunaticuncle.randomutil.mixin;
+package lunaticuncle.randomutil.mixin.gamerules;
 
 import lunaticuncle.randomutil.RandomUtilities;
 import net.minecraft.core.world.World;
