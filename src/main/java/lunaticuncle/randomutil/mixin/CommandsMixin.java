@@ -1,7 +1,6 @@
 package lunaticuncle.randomutil.mixin;
 
 import lunaticuncle.randomutil.commands.SmiteCommand;
-import net.minecraft.core.net.command.Command;
 import net.minecraft.core.net.command.Commands;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
